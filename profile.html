@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>个人中心 - 回收衣服志愿者系统</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="main-nav">
+    <a href="index.html">首页</a>
+    <a href="profile.html" class="active">个人中心</a>
+    <a href="login.html" id="logoutBtn">退出</a>
+  </nav>
+  <main class="profile-main" style="margin-top:32px;">
+    <section class="profile-header" style="margin-top:16px;">
+      <img src="images/avatar.png" alt="头像" class="profile-avatar">
+      <h2 id="profileName">未登录</h2>
+      <div class="profile-info">
+        <div>手机号：<span id="profilePhone">-</span></div>
+        <div>注册时间：<span id="profileReg">-</span></div>
+      </div>
+    </section>
+    <section class="timeline-section">
+      <h3>我的回收记录</h3>
+      <ul class="timeline" id="recycleTimeline">
+        <li><span class="tl-date">2025-07-01</span> 校园回收专场</li>
+        <li><span class="tl-date">2025-06-21</span> 社区义卖回收</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 oloo 回收衣服志愿者系统
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
